@@ -1,11 +1,22 @@
 import React, {Component} from 'react';
+import {ON_TIME, DELAYED} from '../constants/constants.js';
+
+import './styles/Delivery.css';
 
 export default class Delivery extends Component {
   render() {
+    let className = "col-sm-12 record_row mtrl_shadow1";
+    if (this.props.status === ON_TIME) {
+      className += " delivered";
+    } else {
+      className += " delayed";
+    }
     return (
-      <div key={this.props.key} className="Delivery col-sm-12 record_row mtrl_shadow1">
-        <p className="fnt18"><a href="#url">PO No. 0000145</a></p>
-        <p className="fnt12">PO - for Customer / Individual name </p>
+      <div key={this.props.key} className={className}>
+        <p className="fnt18"><a href="#url"> {this.props.docket}</a></p>
+        <p className="fnt12">{this.props.customer} </p>
+        <p className="fnt12">{this.props.deliveryLocation} </p>
+        <p className="fnt12">{this.props.status} </p>
       </div>
     )
   }

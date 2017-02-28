@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+/* Wrriten By Tushar Deshmukh 26 Feb 2017 @UXExpert*/
+body{
+		background: url(../../images/bg_login_page.jpg)100% 5%; 
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
+
+
+.notification{ background:#FFFFCC; padding:15px 0; text-indent:25px; margin:15px auto;}
+.dashboardaction_hold{ margin:25px auto 45px auto;}
+.dashboard_actionbox{  margin:15px auto}
+.dashboard_menu_hold{ width:90%; padding:5px 15px 5px 5px; background-color:#eee; margin:5px auto}
+.dashboard_number { font-size:50px; font-weight: 200;font-style: normal;}

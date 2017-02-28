@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+/* Wrriten By Tushar Deshmukh 26 Feb 2017 @UXExpert*/
+body{
+		background:url(../../images/bg_po_page.jpg)100% 5%; 
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
+
+.open_address_modal{ color:#fff}
+.open_address_modal:hover{ color:#FFCC00}

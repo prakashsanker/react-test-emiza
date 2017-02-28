@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+/* Wrriten By Tushar Deshmukh 26 Feb 2017 @UXExpert*/
+body{
+		background:url(../../images/bg_so_page.jpg)100% 5%; 
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
+
+.inventory_list{ margin:5px 0;}
+
+/*.accordion-toggle:after {
+    font-family: 'FontAwesome';
+    content: "\f078";    
+    float: right;
+}
+.accordion-opened .accordion-toggle:after {    
+    content: "\f054";    
+}*/
+
+.accordion-inner{ background:#f7fdf7; width:95%; margin:0 0 5px 0; padding:5px 10px; float:right}

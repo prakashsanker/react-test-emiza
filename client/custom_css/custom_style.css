@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+/* Wrriten By Tushar Deshmukh 26 Feb 2017 @UXExpert*/
+
+
+/*body{ font-family:'Nunito', sans-serif;!important}*/
+
+/*body{font-family: 'Titillium Web', sans-serif;!important}*/
+
+/*body{font-family: 'Muli', sans-serif!important;}*/
+
+
+
+
+
+.cls{ clear:both!important}
+.margin_null{ margin:0!important}
+
+.fnt8{ font-size:8px;}
+.fnt10{font-size:10px;}
+.fnt12{font-size:12px;}
+.fnt14{font-size:14px;}
+.fnt16{font-size:16px;}
+.fnt18{font-size:18px;}
+.fnt20{font-size:20px;}
+.fnt22{font-size:22px;}
+.fnt24{font-size:24px;}
+.fnt28{font-size:28px;}
+.bold{ font-weight:bold;}
+.emiza_blue{ color:#282d77 }
+.emiza_blue_bg{ background:#282d77!important }
+.emiza_blue_bg:hover{ background:#006699!important}
+button{ cursor:pointer;}
+.brd{ border:1px solid red;}
+.brd1{ border:1px solid green;}
+.brd2{ border:1px solid yellow;}
+.hide_withspace{ visibility: hidden;}
+.hide_witoutspace{ display:none;}
+.fl{ float:left!important}
+.fr{ float:right!important}
+form{ display:block; display:table;}
+
+.username{font-weight: 600;font-style: normal}
+.logout_icon img{ width:18px; margin:5px}
+.page_body{ margin:25px auto!important; background: url(../../images/bg_pagebody.png) repeat; border:1px solid #cbcbcb; display:table;}
+
+
+.navigation_bar{ background:#5b6b78!important;}
+.nav-item { color:#b2bfca; margin:0 10px;}
+.nav-item a{ color:#b2bfca!important;}
+
+.active a{ color:#fff!important; font-weight:400!important; border-bottom:4px solid #ffc600}
+.nav-item a:hover{ color:#fff!important; font-weight:400!important; border-bottom:4px solid #ffc600}
+.view_txt{ color:#fff;}
+
+.accordion{}
+.accordion p{ margin:2px; }
+
+
+.navbar{ background:#fff;}
+
+.mtrl_shadow1{box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
+.mtrl_shadow2{box-shadow:  0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);}
+
+/*.container{ width:95%!important;}*/
+
+.logn_box{ background:url(../../images/bg_login_box.png) no-repeat; width:370px; height:400px;  margin:50px 0 0 0;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px}
+.error_msg{ color:#CC0000}
+
+.page_title{ color:#fff; font-weight:200; margin:5px auto}
+.page_title_border{ border-bottom:1px solid #000; margin: 0 0 0 15px 0!important;}
+.page_title_text { color: #fff; margin:5px; padding:10px 2px 2px 2px; }
+
+.button_row{ margin:2px 0!important; padding:0!important}
+.button_row button{ margin:5px;}
+.page_content{ margin:5px auto!important}
+.record_row{ background:#eeeeee; border-bottom:1px solid #000; margin:0 0 2px 0; padding:1px 15px!important}
+.record_row p{ margin:1px}
+.pagination_hold{ margin:15px auto;}
+
+.search_hold{ padding:2px 0 3px 0!important;}
+.search_field{ border:1px solid #eee; ;
+			line-height: 1.25;
+			color: #464a4c;
+			background-color: #eee;
+			background-image: none;
+			-webkit-background-clip: padding-box;
+			background-clip: padding-box;
+			height:45px;
+}
+.view_hold{ width:70px; padding:5px;}
+.view_hold select{ padding:5px;}
+.view_tx{ width:50px; color:#fff; margin:10px 0 0 0 ;}
+.frm_hold{ margin:15px auto 2px auto}
+.form-group label{ color:#fff!important; width:100%;}
+.frm_field_hold{}
+.frm_field_hold input { width:90%!important; background:#fbfafa; border-radius: 0!important;}
+.frm_field_hold select { width:90%!important; background:#fbfafa; border-radius: 0!important;}
+
+.frm_field_hold2  label{ color:#000!important;}
+
+.form_date{ width:90%;}
+.form-text{ color:#fff;}
+.frm_subhead { color:#fff; font-weight:200}
+.frm_field_hold button{ margin:5px 0 5px 5px ;}
+.frm_btn_hold{ margin:2px auto}
+.devider{ width:100%; border:1px solid #fff; clear:both; margin:5px auto; padding:0;}
+.devider1{ width:100%; border:1px solid #000; clear:both; margin:5px auto; padding:0;}
+
+
+.tbl_header{}
+.tbl_row{}
+.prd_list { background:#eee; height:48px;}
+.prd_list p{ margin:1px 1px 0px 5px; padding:0px; color:#333333}
+.prd_list input{ width:90%; margin:2px 5px 0 18px; border:none!important; background:none; box-shdow:none!important;}
+
+
+.prd_list2 { background:#eee; height:48px;}
+.prd_list2 p{ margin:1px 1px 0px 5px; padding:0px; color:#333333}
+.prd_list2 input{ width:80%; margin:2px 5px 0 18px; border:none!important; background:none; box-shdow:none!important;}
+.ver_cent{ line-height: 48px;}
+
+.modal-body{}
+.modal-body h2{ font-weight:200}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+
+.footer_fix{ display:table; display:block; height:60px!important; margin:30px auto 25px auto; width:80%; clear:both;}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+   Margin bottom by footer height
+  margin-bottom: 60px;
+  height: 100%;
+
+}
+
+
+
+.footer {
+
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+
+
+
+   position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}*/
+/* Sticky footer styles
+-------------------------------------------------- */
+
+
+@media (max-width: 320px){
+	.push-8{ left:0;}
+}
+@media (max-width: 768px){
+.push-8{ left:0;}
+
+}
+@media (min-width: 1024px){
+
+}

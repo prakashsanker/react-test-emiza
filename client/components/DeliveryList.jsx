@@ -15,15 +15,15 @@ export default class DeliveryList extends Component {
   }
   render() {
     const deliveries = this.props.deliveries;
-    console.log("what are deliveries");
-    console.log(deliveries.length);
     return (
-      <div>
-        {
-          deliveries ?
-          deliveries.map((delivery, i) => this.renderDelivery(delivery, i)) :
-          "No Deliveries"
-        }
+      <div className="col-sm-11 page_content">
+        <div className="row">
+          {
+            deliveries ?
+            deliveries.map((delivery, i) => this.renderDelivery(delivery, i)) :
+            "No Deliveries"
+          }
+        </div>
       </div>
     );
   }

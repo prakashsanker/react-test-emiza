@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import cx from 'classnames';
 
+import {DELAYED, ON_TIME} from '../constants/constants.js';
+
 export default class DeliveryStatus extends Component {
   render() {
       const className = this.props.delivered ? "delivered" : "scheduled";
